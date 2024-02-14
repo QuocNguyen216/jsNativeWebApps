@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(208, 244, 244);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#clockdiv{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: beige;
+}
+
+#clock{
+    text-shadow: 2px 2px 2px hsla(0, 3%, 58%, 0.75);
+    font-family: monospace;
+    font-size: 5em;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(101, 95, 95);
+
+}
+#controls{
+    text-align: center;
+}
+
+#controls button{
+    border: 5px solid;
+    border-color: white;
+    border-radius: 20px;
+    color:rgb(101, 95, 95);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 3px;
+    transition: 0.2s;
+    min-width: 125px;
+}
+#start{
+    background-color: rgba(128, 244, 163, 0.737);
+}
+#start:hover{
+    background-color: rgba(22, 242, 88, 0.737);
+}
+#start:active{
+    background-color: rgba(4, 146, 46, 0.737);
+}
+#reset{
+    background-color: rgba(128, 244, 163, 0.737);
+}
+#reset:hover{
+    background-color: rgba(22, 242, 88, 0.737);
+}
+#reset:active{
+    background-color: rgba(4, 146, 46, 0.737);
+}
+
+#stop{
+    background-color: rgb(244, 132, 132);
+}
+#stop:hover{
+    background-color: rgb(247, 54, 54);
+}
+#stop:active{
+    background-color: rgb(155, 3, 3);
+}

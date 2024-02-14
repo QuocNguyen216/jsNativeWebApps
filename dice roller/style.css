@@ -1,0 +1,41 @@
+#contain{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#header{
+    color: brown;
+    font-style: italic;
+}
+
+#dice{
+    padding: 8px 14px;
+    background-color: rgb(251, 188, 248);
+    border-radius: 15px;
+    border:none;
+    font-weight: bold;
+}
+
+#dice:hover{
+    background-color: rgb(239, 147, 234);
+}
+#dice:active{
+    background-color: rgb(246, 45, 236);
+}
+
+#numDice{
+    font-size: 1em;
+    width: 150px;
+    font-weight: bold;
+}
+
+#results{
+    margin: 25px;
+}
+#images img{
+    width: 100px;
+    margin: 5px;
+}
+ 
